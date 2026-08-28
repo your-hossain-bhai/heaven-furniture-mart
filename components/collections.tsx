@@ -9,22 +9,22 @@ const collections = [
   {
     title: 'Living Room',
     description: 'Sofas, lounge chairs, and centre tables shaped for gathering.',
-    image: '/images/collection-living.png',
+    image: '/images/real/living-wooden-sofa.jpg',
   },
   {
     title: 'Bedroom',
     description: 'Beds, wardrobes, and dressers built for rest and calm.',
-    image: '/images/collection-bedroom.png',
+    image: '/images/real/bedroom-green-bed.jpg',
   },
   {
     title: 'Dining',
     description: 'Tables and seating made for long meals and long memories.',
-    image: '/images/collection-dining.png',
+    image: '/images/real/dining-cream-set.jpg',
   },
   {
     title: 'Office & Study',
     description: 'Desks, shelving, and workspaces that focus the mind.',
-    image: '/images/collection-office.png',
+    image: '/images/real/office-workspace.jpg',
   },
 ]
 

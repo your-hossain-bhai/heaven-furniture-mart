@@ -64,8 +64,8 @@ export function Hero() {
           <div className="relative aspect-[4/5] w-full overflow-hidden border border-accent/40 p-3 md:p-4">
             <div className="relative h-full w-full overflow-hidden">
               <Image
-                src="/images/hero-showroom.png"
-                alt="Luxury living room showroom by Heaven Furniture Mart"
+                src="/images/real/hero-gold-sofa.jpg"
+                alt="Handcrafted gold-finished luxury sofa set at Heaven Furniture Mart"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 50vw"

@@ -3,24 +3,34 @@ import { Reveal } from '@/components/reveal'
 
 const gallery = [
   {
-    src: '/images/proof-workshop.png',
-    alt: 'Craftsman carving detail into solid wood in the workshop',
+    src: '/images/real/showroom-teal-sofas.jpg',
+    alt: 'Teal velvet sofa sets on the Heaven Furniture Mart showroom floor',
     tall: true,
   },
   {
-    src: '/images/proof-detail.png',
-    alt: 'Hand-polished walnut joint with brass inlay detail',
+    src: '/images/real/cabinet-black-gold.jpg',
+    alt: 'Handcrafted black cabinet with gold hardware and open shelving',
     tall: false,
   },
   {
-    src: '/images/proof-delivery.png',
-    alt: 'Completed bespoke interior styled with handcrafted furniture',
+    src: '/images/real/sofa-grey-velvet.jpg',
+    alt: 'Grey velvet sofa with hand-carved gold frame and embroidered cushions',
     tall: false,
   },
   {
-    src: '/images/proof-showroom.png',
-    alt: 'Heaven Furniture Mart showroom floor in Chattogram',
+    src: '/images/real/showroom-dining-hall.jpg',
+    alt: 'Dining hall display inside the Heaven Furniture Mart showroom in Chattogram',
     tall: true,
+  },
+  {
+    src: '/images/real/sofa-royal-blue.jpg',
+    alt: 'Royal blue tufted sofa set with gold-finished carved coffee table',
+    tall: true,
+  },
+  {
+    src: '/images/real/dining-marble-leather.jpg',
+    alt: 'Marble-top dining table with hand-carved leather-upholstered chairs',
+    tall: false,
   },
 ]
 
