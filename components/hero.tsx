@@ -17,7 +17,7 @@ export function Hero() {
             transition={{ duration: 0.6 }}
             className="mb-6 text-xs uppercase tracking-[0.3em] text-accent"
           >
-            Bespoke Furniture · Chattogram
+            Designed. Crafted. Customized.
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 24 }}

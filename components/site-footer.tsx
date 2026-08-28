@@ -19,7 +19,7 @@ export function SiteFooter() {
             </h3>
             <address className="mt-4 flex items-start gap-3 text-sm not-italic leading-relaxed text-background/60">
               <MapPin size={16} className="mt-0.5 shrink-0 text-accent" aria-hidden="true" />
-              Chattogram, Bangladesh
+              Agrabad Access Road, Chattogram, Bangladesh
             </address>
           </div>
 
@@ -39,11 +39,11 @@ export function SiteFooter() {
               </li>
               <li>
                 <a
-                  href="mailto:hello@heavenfurnituremart.com"
+                  href="mailto:heavenfurnituremart@gmail.com"
                   className="flex items-center gap-3 transition-colors hover:text-background"
                 >
                   <Mail size={16} className="shrink-0 text-accent" aria-hidden="true" />
-                  hello@heavenfurnituremart.com
+                  heavenfurnituremart@gmail.com
                 </a>
               </li>
             </ul>
@@ -56,7 +56,9 @@ export function SiteFooter() {
             <ul className="mt-4 space-y-3 text-sm text-background/60">
               <li>
                 <a
-                  href="#"
+                  href="https://facebook.com/HeavenFurnitureMart"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 transition-colors hover:text-accent"
                 >
                   Facebook
@@ -65,7 +67,9 @@ export function SiteFooter() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://instagram.com/heaven_furniture_ltd"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 transition-colors hover:text-accent"
                 >
                   Instagram
@@ -74,7 +78,9 @@ export function SiteFooter() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://youtube.com/@HeavenFurnitureMart"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 transition-colors hover:text-accent"
                 >
                   YouTube

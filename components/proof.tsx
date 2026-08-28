@@ -37,27 +37,33 @@ const gallery = [
 const milestones = [
   {
     year: '2020',
-    title: 'The First Workshop',
+    title: 'Founded in Chattogram',
     description:
-      'Abul Kalam Bhuiyan founds Heaven Furniture Mart in Chattogram with a small team of craftsmen and a bespoke-first promise.',
+      'Heaven Furniture Mart is founded by Managing Director Abul Kalam Bhuiyan with a bespoke-first promise.',
   },
   {
     year: '2021',
-    title: 'Full Interior Styling',
+    title: 'The Agrabad Showroom Opens',
     description:
-      'We expand beyond individual pieces into complete room and interior styling projects for homes and offices.',
+      'Our showroom on Agrabad Access Road opens its doors, letting clients see, touch, and sit with our craftsmanship in person.',
   },
   {
-    year: '2023',
-    title: 'The Showroom Opens',
+    year: '2024–2025',
+    title: 'International Furniture Fair',
     description:
-      'Our dedicated showroom opens its doors, letting clients see, touch, and sit with our craftsmanship in person.',
+      'We exhibit at the International Furniture Fair, Chattogram, presenting our bespoke work to a wider audience.',
   },
   {
-    year: 'Today',
-    title: 'Hundreds of Homes',
+    year: '2025',
+    title: 'Chamber of Commerce Member',
     description:
-      'From single armchairs to whole-home commissions, our work now lives in hundreds of spaces across the region.',
+      'Heaven Furniture Mart becomes a member of the Chamber of Commerce.',
+  },
+  {
+    year: '2026',
+    title: 'Nationwide BFIOA Recognition',
+    description:
+      'Our craftsmanship receives nationwide recognition from the BFIOA.',
   },
 ]
 
@@ -99,6 +105,17 @@ export function Proof() {
         </div>
 
         <div className="lg:col-span-5">
+          <Reveal>
+            <figure className="mb-12 border-l-2 border-accent pl-6">
+              <blockquote className="font-serif text-xl leading-relaxed text-foreground text-pretty">
+                {'"At Heaven Furniture Mart, we believe furniture is more than just function; it is a reflection of lifestyle, taste, and comfort. Every piece we create is designed to bring lasting elegance into the homes of our clients."'}
+              </blockquote>
+              <figcaption className="mt-4 text-sm text-muted-foreground">
+                <span className="text-accent">—</span> Abul Kalam Bhuiyan,
+                Managing Director
+              </figcaption>
+            </figure>
+          </Reveal>
           <ol className="relative border-l border-accent/40 pl-8">
             {milestones.map((milestone, i) => (
               <Reveal key={milestone.year} delay={i * 0.1}>
