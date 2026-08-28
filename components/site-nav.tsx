@@ -22,9 +22,15 @@ export function SiteNav() {
       >
         <Link
           href="#top"
-          className="font-serif text-lg tracking-tight text-foreground"
+          aria-label="Heaven Furniture Mart — home"
+          className="flex flex-col leading-none"
         >
-          Heaven Furniture Mart
+          <span className="font-serif text-xl font-semibold tracking-[0.12em] text-foreground">
+            HE<span className="text-accent">A</span>VEN
+          </span>
+          <span className="mt-1 text-[0.6rem] font-medium uppercase tracking-[0.42em] text-muted-foreground">
+            Furniture Mart
+          </span>
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">
