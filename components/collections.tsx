@@ -81,6 +81,21 @@ const products = [
     category: 'Storage',
     image: '/images/real/cabinet-gold-showcase.jpg',
   },
+  {
+    name: 'Teal Velvet Sofa Set',
+    category: 'Living Room',
+    image: '/images/real/showroom-teal-sofas.jpg',
+  },
+  {
+    name: 'Showroom Dining Display',
+    category: 'Dining',
+    image: '/images/real/showroom-dining-hall.jpg',
+  },
+  {
+    name: 'Executive Office Suite',
+    category: 'Office',
+    image: '/images/real/office-workspace.jpg',
+  },
 ]
 
 export function Collections() {
